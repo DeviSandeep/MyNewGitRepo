@@ -8,6 +8,9 @@ public SuperClassB() {
 }
 public void run() {
 	System.out.println("Run-Child");
+	System.out.println("Hello");
+	
+	
 	}
 public void display() {
 	System.out.println(colour);
