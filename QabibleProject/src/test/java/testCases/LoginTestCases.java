@@ -19,6 +19,7 @@ public class LoginTestCases extends BaseClass {
 	  String actualResult=dp.getTextOfWelcomeText();
 	  String expectedResult="Welcome to Payroll Application";
 	  Assert.assertEquals(actualResult, expectedResult, "Incorrect Welcome Message");
+	  System.out.println("");
 	  
 	 
   }
