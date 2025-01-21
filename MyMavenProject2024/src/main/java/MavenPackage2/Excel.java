@@ -10,12 +10,12 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Excel {
-	XSSFSheet sh;//Sheet1
+	XSSFSheet sh;//Sheet1, declared globally as the variable need to be accessed outside constructor
 	
 	 public Excel() throws IOException {
 		 FileInputStream f=new FileInputStream("C:\\Devi Java and Automation Notes\\Book1.xlsx");
-		 XSSFWorkbook wb=new XSSFWorkbook(f);
-		 sh=wb.getSheet("Details");
+		 XSSFWorkbook wb=new XSSFWorkbook(f);//class to read a workbook provided by apache poi
+		 sh=wb.getSheet("Details");// method to read sheet provided by apache poi
 	 }
 	
 	public String readData(int i, int j) {//0,0

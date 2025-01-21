@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="6" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-20T23:11:28 SGT" name="My Test Suite" finished-at="2025-01-20T23:12:29 SGT" duration-ms="61631">
+    <groups>
+      <group name="Critical">
+        <method signature="ClientTestCase.verifyTheValueOfInvoiceOrderDropDown()[pri:0, instance:testCases.ClientTestCase@13e39c73]" name="verifyTheValueOfInvoiceOrderDropDown" class="testCases.ClientTestCase"/>
+        <method signature="ClientTestCase.verifyTheValueOfInvoiceOrderDropDown()[pri:0, instance:testCases.ClientTestCase@74e52303]" name="verifyTheValueOfInvoiceOrderDropDown" class="testCases.ClientTestCase"/>
+      </group> <!-- Critical -->
+    </groups>
+    <test started-at="2025-01-20T23:11:28 SGT" name="Chrome Test" finished-at="2025-01-20T23:11:47 SGT" duration-ms="19334">
+      <class name="testCases.ClientTestCase">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.ClientTestCase@13e39c73]" started-at="2025-01-20T23:11:28 SGT" name="beforeMethod" finished-at="2025-01-20T23:11:40 SGT" duration-ms="12337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheValueOfInvoiceOrderDropDown()[pri:0, instance:testCases.ClientTestCase@13e39c73]" started-at="2025-01-20T23:11:40 SGT" name="verifyTheValueOfInvoiceOrderDropDown" finished-at="2025-01-20T23:11:46 SGT" duration-ms="5940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheValueOfInvoiceOrderDropDown -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.ClientTestCase@13e39c73]" started-at="2025-01-20T23:11:46 SGT" name="afterMethod" finished-at="2025-01-20T23:11:47 SGT" duration-ms="987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheValueOfInvoiceOrderDropDown status=SUCCESS method=ClientTestCase.verifyTheValueOfInvoiceOrderDropDown()[pri:0, instance:testCases.ClientTestCase@13e39c73] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.ClientTestCase -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2025-01-20T23:11:28 SGT" name="Edge Test" finished-at="2025-01-20T23:12:29 SGT" duration-ms="61631">
+      <class name="testCases.ClientTestCase">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.ClientTestCase@74e52303]" started-at="2025-01-20T23:11:28 SGT" name="beforeMethod" finished-at="2025-01-20T23:11:47 SGT" duration-ms="19507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyCheckBoxIsSelected()[pri:0, instance:testCases.ClientTestCase@74e52303]" started-at="2025-01-20T23:11:47 SGT" name="verifyCheckBoxIsSelected" finished-at="2025-01-20T23:11:51 SGT" duration-ms="3864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckBoxIsSelected -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.ClientTestCase@74e52303]" started-at="2025-01-20T23:11:51 SGT" name="afterMethod" finished-at="2025-01-20T23:11:52 SGT" duration-ms="892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckBoxIsSelected status=SUCCESS method=ClientTestCase.verifyCheckBoxIsSelected()[pri:0, instance:testCases.ClientTestCase@74e52303] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.ClientTestCase@74e52303]" started-at="2025-01-20T23:11:52 SGT" name="beforeMethod" finished-at="2025-01-20T23:12:01 SGT" duration-ms="9204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheValueOfInvoiceOrderDropDown()[pri:0, instance:testCases.ClientTestCase@74e52303]" started-at="2025-01-20T23:12:01 SGT" name="verifyTheValueOfInvoiceOrderDropDown" finished-at="2025-01-20T23:12:05 SGT" duration-ms="3756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheValueOfInvoiceOrderDropDown -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.ClientTestCase@74e52303]" started-at="2025-01-20T23:12:05 SGT" name="afterMethod" finished-at="2025-01-20T23:12:06 SGT" duration-ms="749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheValueOfInvoiceOrderDropDown status=SUCCESS method=ClientTestCase.verifyTheValueOfInvoiceOrderDropDown()[pri:0, instance:testCases.ClientTestCase@74e52303] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.ClientTestCase@74e52303]" started-at="2025-01-20T23:12:06 SGT" name="beforeMethod" finished-at="2025-01-20T23:12:14 SGT" duration-ms="8422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="verifyToolTipValueInClientPage()[pri:0, instance:testCases.ClientTestCase@74e52303]" started-at="2025-01-20T23:12:14 SGT" name="verifyToolTipValueInClientPage" finished-at="2025-01-20T23:12:17 SGT" duration-ms="2843" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Incorrect Tool Tip Value expected [date] but found [Update]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Incorrect Tool Tip Value expected [date] but found [Update]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testCases.ClientTestCase.verifyToolTipValueInClientPage(ClientTestCase.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToolTipValueInClientPage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.ClientTestCase@74e52303]" started-at="2025-01-20T23:12:17 SGT" name="afterMethod" finished-at="2025-01-20T23:12:18 SGT" duration-ms="680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyToolTipValueInClientPage status=SKIP method=ClientTestCase.verifyToolTipValueInClientPage()[pri:0, instance:testCases.ClientTestCase@74e52303] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.ClientTestCase@74e52303]" started-at="2025-01-20T23:12:18 SGT" name="beforeMethod" finished-at="2025-01-20T23:12:26 SGT" duration-ms="8250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyToolTipValueInClientPage()[pri:0, instance:testCases.ClientTestCase@74e52303]" started-at="2025-01-20T23:12:26 SGT" name="verifyToolTipValueInClientPage" finished-at="2025-01-20T23:12:29 SGT" duration-ms="2791" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Incorrect Tool Tip Value expected [date] but found [Update]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Incorrect Tool Tip Value expected [date] but found [Update]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testCases.ClientTestCase.verifyToolTipValueInClientPage(ClientTestCase.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToolTipValueInClientPage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.ClientTestCase@74e52303]" started-at="2025-01-20T23:12:29 SGT" name="afterMethod" finished-at="2025-01-20T23:12:29 SGT" duration-ms="582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyToolTipValueInClientPage status=FAILURE method=ClientTestCase.verifyToolTipValueInClientPage()[pri:0, instance:testCases.ClientTestCase@74e52303] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.ClientTestCase -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- My Test Suite -->
+</testng-results>

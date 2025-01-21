@@ -1,0 +1,8 @@
+elementRepository\WorkerPage.class
+elementRepository\LoginPage.class
+elementRepository\ClientPage.class
+elementRepository\DashboardPage.class
+utilities\ScreenshotUtility.class
+utilities\FakerUtility.class
+utilities\ExtentReportUtility.class
+utilities\GeneralUtilities.class

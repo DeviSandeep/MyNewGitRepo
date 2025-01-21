@@ -1,0 +1,16 @@
+<suite name="My Test Suite">
+	<test name="Grouping Test">
+		<groups>
+			<run>
+				<include name="Critical">
+				</include>
+				<include name="Medium">
+				</include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testNG.GroupingBasics">
+			</class>
+		</classes>
+	</test>
+</suite>

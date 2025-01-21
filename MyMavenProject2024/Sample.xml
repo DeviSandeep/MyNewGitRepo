@@ -1,0 +1,16 @@
+<suite name="My Test Suite" parallel="tests" thread-count="2">
+	<test name="Chrome Test">
+		<parameter name="Browser" value="chrome"></parameter>
+		<classes>
+			<class name="testNG.AssertionsAssignment">
+			</class>
+		</classes>
+	</test>
+	<test name="Edge Test">
+		<parameter name="Browser" value="edge"></parameter>
+		<classes>
+			<class name="testNG.AssertionsAssignment">
+			</class>
+		</classes>
+	</test>
+</suite>

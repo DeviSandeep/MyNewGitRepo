@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-13T21:53:57 SGT" name="Default suite" finished-at="2025-01-13T21:54:42 SGT" duration-ms="44997">
+    <groups>
+    </groups>
+    <test started-at="2025-01-13T21:53:57 SGT" name="Default test" finished-at="2025-01-13T21:54:42 SGT" duration-ms="44997">
+      <class name="testCases.LoginTestCases">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testCases.LoginTestCases@7722c3c3]" started-at="2025-01-13T21:53:57 SGT" name="beforeMethod" finished-at="2025-01-13T21:54:28 SGT" duration-ms="30682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyLoginFeatureIsWorking()[pri:0, instance:testCases.LoginTestCases@7722c3c3]" started-at="2025-01-13T21:54:28 SGT" name="verifyLoginFeatureIsWorking" finished-at="2025-01-13T21:54:31 SGT" duration-ms="2794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFeatureIsWorking -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCases.LoginTestCases@7722c3c3]" started-at="2025-01-13T21:54:31 SGT" name="afterMethod" finished-at="2025-01-13T21:54:42 SGT" duration-ms="11381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.LoginTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

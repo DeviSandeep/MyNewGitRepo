@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-My_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">My Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-My_Test_Suite" class="navigator-link ">
+                    <span>C:\Devi Java and Automation Notes\Eclipse Workspace\QabibleProject\CrossBrowser1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-My_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-My_Test_Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-My_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-My_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-My_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-My_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 1 failed,  1 skipped,  3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-My_Test_Suite" class="hide-methods failed suite-My_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-My_Test_Suite -->
+                      <a href="#" panel-name="suite-My_Test_Suite" class="show-methods failed suite-My_Test_Suite"> (show)</a> <!-- show-methods failed suite-My_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-My_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Test_Suite" title="testCases.ClientTestCase" class="method navigator-link" hash-for-method="verifyToolTipValueInClientPage">verifyToolTipValueInClientPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-My_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-My_Test_Suite" class="hide-methods skipped suite-My_Test_Suite"> (hide)</a> <!-- hide-methods skipped suite-My_Test_Suite -->
+                      <a href="#" panel-name="suite-My_Test_Suite" class="show-methods skipped suite-My_Test_Suite"> (show)</a> <!-- show-methods skipped suite-My_Test_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-My_Test_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Test_Suite" title="testCases.ClientTestCase" class="method navigator-link" hash-for-method="verifyToolTipValueInClientPage">verifyToolTipValueInClientPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-My_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-My_Test_Suite" class="hide-methods passed suite-My_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-My_Test_Suite -->
+                      <a href="#" panel-name="suite-My_Test_Suite" class="show-methods passed suite-My_Test_Suite"> (show)</a> <!-- show-methods passed suite-My_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-My_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Test_Suite" title="testCases.ClientTestCase" class="method navigator-link" hash-for-method="verifyCheckBoxIsSelected">verifyCheckBoxIsSelected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Test_Suite" title="testCases.ClientTestCase" class="method navigator-link" hash-for-method="verifyTheValueOfInvoiceOrderDropDown">verifyTheValueOfInvoiceOrderDropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-My_Test_Suite" title="testCases.ClientTestCase" class="method navigator-link" hash-for-method="verifyTheValueOfInvoiceOrderDropDown">verifyTheValueOfInvoiceOrderDropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-My_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-My_Test_Suite" class="panel My_Test_Suite">
+          <div class="suite-My_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.ClientTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyToolTipValueInClientPage">
+                  </a> <!-- verifyToolTipValueInClientPage -->
+                  <span class="method-name">verifyToolTipValueInClientPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: Incorrect Tool Tip Value expected [date] but found [Update]
+	at testCases.ClientTestCase.verifyToolTipValueInClientPage(ClientTestCase.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_Test_Suite-class-failed -->
+          <div class="suite-My_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.ClientTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyToolTipValueInClientPage">
+                  </a> <!-- verifyToolTipValueInClientPage -->
+                  <span class="method-name">verifyToolTipValueInClientPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: Incorrect Tool Tip Value expected [date] but found [Update]
+	at testCases.ClientTestCase.verifyToolTipValueInClientPage(ClientTestCase.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_Test_Suite-class-skipped -->
+          <div class="suite-My_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ClientTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckBoxIsSelected">
+                  </a> <!-- verifyCheckBoxIsSelected -->
+                  <span class="method-name">verifyCheckBoxIsSelected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheValueOfInvoiceOrderDropDown">
+                  </a> <!-- verifyTheValueOfInvoiceOrderDropDown -->
+                  <span class="method-name">verifyTheValueOfInvoiceOrderDropDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheValueOfInvoiceOrderDropDown">
+                  </a> <!-- verifyTheValueOfInvoiceOrderDropDown -->
+                  <span class="method-name">verifyTheValueOfInvoiceOrderDropDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_Test_Suite-class-passed -->
+        </div> <!-- panel My_Test_Suite -->
+        <div panel-name="test-xml-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Devi Java and Automation Notes\Eclipse Workspace\QabibleProject\CrossBrowser1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;My Test Suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Chrome Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Critical&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.ClientTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome Test --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Edge Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.ClientTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Edge Test --&gt;
+&lt;/suite&gt; &lt;!-- My Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for My Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Edge Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for My Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Critical</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTheValueOfInvoiceOrderDropDown</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for My Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_My_Test_Suite');
+function tableData_My_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyTheValueOfInvoiceOrderDropDown')
+data.setCell(0, 2, 'testCases.ClientTestCase')
+data.setCell(0, 3, 5940);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyCheckBoxIsSelected')
+data.setCell(1, 2, 'testCases.ClientTestCase')
+data.setCell(1, 3, 3864);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyTheValueOfInvoiceOrderDropDown')
+data.setCell(2, 2, 'testCases.ClientTestCase')
+data.setCell(2, 3, 3756);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyToolTipValueInClientPage')
+data.setCell(3, 2, 'testCases.ClientTestCase')
+data.setCell(3, 3, 2843);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyToolTipValueInClientPage')
+data.setCell(4, 2, 'testCases.ClientTestCase')
+data.setCell(4, 3, 2791);
+window.suiteTableData['My_Test_Suite']= { tableData: data, tableDiv: 'times-div-My_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-My_Test_Suite">
+              </div> <!-- times-div-My_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for My Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.ClientTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyToolTipValueInClientPage</span>
+                <br/>
+                <span class="ignored-method-name">verifyCheckBoxIsSelected</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ClientTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(edge)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheValueOfInvoiceOrderDropDown</span>
+                <span class="method-start">12341 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyTheValueOfInvoiceOrderDropDown status=SUCCESS method=ClientTestCase.verifyThe...)</span>
+                <span class="method-start">18285 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckBoxIsSelected</span>
+                <span class="method-start">19507 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyCheckBoxIsSelected status=SUCCESS method=ClientTestCase.verifyCheckBoxIsSelec...)</span>
+                <span class="method-start">23372 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(edge)</span>
+                <span class="method-start">24265 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheValueOfInvoiceOrderDropDown</span>
+                <span class="method-start">33470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyTheValueOfInvoiceOrderDropDown status=SUCCESS method=ClientTestCase.verifyThe...)</span>
+                <span class="method-start">37232 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(edge)</span>
+                <span class="method-start">37983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyToolTipValueInClientPage</span>
+                <span class="method-start">46405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyToolTipValueInClientPage status=SKIP method=ClientTestCase.verifyToolTipValue...)</span>
+                <span class="method-start">49252 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(edge)</span>
+                <span class="method-start">49933 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyToolTipValueInClientPage</span>
+                <span class="method-start">58184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyToolTipValueInClientPage status=FAILURE method=ClientTestCase.verifyToolTipVa...)</span>
+                <span class="method-start">60981 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
